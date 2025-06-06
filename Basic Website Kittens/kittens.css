@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+/*import url for arima font from fonts.google.com*/
+
+.header {
+    padding: 45px;
+    background-color: #BD5942;
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    font-family: "Arima", system-ui;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    font-family: "Arima", system-ui;
+    color: #191918;
+    font-size: 18px;
+}
+
+body {
+    background-color: #FFC5A7;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    margin: 0;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    /* Ensures the image scales responsively */
+}
+
+footer {
+    background-color: #BD5942;
+    margin-top: 50px;
+    margin-right: -10px;
+    margin-left: -10px;
+    /*negative margins stretch footer background beyond the web browser screen edge on the left and right*/
+    margin-bottom: -8px;
+    bottom: 0;
+    /*positions the footer on the bottom of the screen*/
+    font-family: "Arima", system-ui;
+    font-size: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+    background-color: #F5E627;
+    border: none;
+    border-radius: 8px;
+    color: #191918;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Arima", system-ui;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #F5E627;
+    color: #191918;
+    border: 2px solid #BD5942;
+}
+
+.button1:hover {
+    background-color: #efeaa0;
+    color: #191918;
+}
