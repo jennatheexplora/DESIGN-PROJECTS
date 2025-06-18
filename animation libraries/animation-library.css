@@ -99,7 +99,7 @@ h1 {
 }
 
 img {
-    padding: 12vh;
+    padding: 10vh;
     -webkit-animation: rotate-scale-up-ver 0.65s linear both;
 	animation: rotate-scale-up-ver 0.65s linear both;
     animation-delay: 1s;

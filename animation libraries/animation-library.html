@@ -5,11 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Using Animation Libraries</title>
         <link rel="stylesheet" href="animation-library.css">
+        <script>
+            function play(){
+            var audio = document.getElementById("sound");
+                        audio.play();
+            }
+        </script>
     </head>
     <body>
         <div>
             <h1>Cool Color Gradient!</h1>
             <img src="guitar.jpg" alt="A picture of a person's hands playing an acoustic guitar">
+            <hr>
+            <audio id="sound"><source src="onclicksound.wav" type="audio/WAV"></audio>
+            <button onclick="play()" type="button">Click here for sound!</button>
         </div>
     </body>
 </html>
